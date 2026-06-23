@@ -23,8 +23,8 @@ companion buttons where the companion is actually installed.
 
 ```bash
 cd <ComfyUI>/custom_nodes
-git clone https://github.com/Ethanfel/ComfyUI-ComfyPeeper-compagnon
-cd ComfyUI-ComfyPeeper-compagnon
+git clone https://github.com/Ethanfel/ComfyUI-ComfyPeeper-companion
+cd ComfyUI-ComfyPeeper-companion
 cp config.example.json config.json
 # edit config.json: set "name", and "discord_webhook" if you want Send to Discord
 # restart ComfyUI

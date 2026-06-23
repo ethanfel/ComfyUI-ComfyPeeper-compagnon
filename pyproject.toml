@@ -6,9 +6,9 @@ license = { text = "GPL-3.0-or-later" }
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/Ethanfel/ComfyUI-ComfyPeeper-compagnon"
+Repository = "https://github.com/Ethanfel/ComfyUI-ComfyPeeper-companion"
 
 [tool.comfy]
 PublisherId = "ethanfel"
 DisplayName = "ComfyPeeper Companion"
-Icon = "https://raw.githubusercontent.com/Ethanfel/ComfyUI-ComfyPeeper-compagnon/main/assets/icon.png"
+Icon = "https://raw.githubusercontent.com/Ethanfel/ComfyUI-ComfyPeeper-companion/main/assets/icon.png"
