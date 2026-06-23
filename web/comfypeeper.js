@@ -38,6 +38,7 @@ async function sendToDiscord(node) {
         const j = await r.json().catch(() => ({}));
         if (j?.ok) toast("success", "Sent to Discord");
         else if (j?.status === 429) toast("error", "Discord rate-limited the webhook — wait a moment and retry");
+        else if (j?.status === 413) toast("error", "Too large for this channel's Discord upload limit (10MB free, more with server boosts)");
         else toast("error", "Send failed: " + (j?.error || ("HTTP " + (j?.status ?? r.status))));
     } catch (err) {
         toast("error", "Send failed: " + err);
