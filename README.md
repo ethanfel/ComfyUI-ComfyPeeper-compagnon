@@ -1,6 +1,12 @@
-# ComfyPeeper Companion (ComfyUI extension)
+<div align="center">
 
-A small ComfyUI extension that pairs with the **[ComfyPeeper](https://github.com/ethanfel/Discord-ComfyPeeper)**
+![ComfyPeeper Companion](assets/social-preview.png)
+
+# ComfyPeeper Companion
+
+</div>
+
+A small ComfyUI extension that pairs with the **[ComfyPeeper](https://github.com/Ethanfel/Discord-ComfyPeeper)**
 Discord plugin to enable two things plain ComfyUI's API can't:
 
 - **Send to ComfyUI** — ComfyPeeper can load a workflow straight into your **open ComfyUI

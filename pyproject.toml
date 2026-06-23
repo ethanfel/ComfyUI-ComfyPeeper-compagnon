@@ -11,4 +11,4 @@ Repository = "https://github.com/Ethanfel/ComfyUI-ComfyPeeper-compagnon"
 [tool.comfy]
 PublisherId = "ethanfel"
 DisplayName = "ComfyPeeper Companion"
-Icon = ""
+Icon = "https://raw.githubusercontent.com/Ethanfel/ComfyUI-ComfyPeeper-compagnon/main/assets/icon.png"
