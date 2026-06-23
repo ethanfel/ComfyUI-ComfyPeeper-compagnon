@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-comfypeeper-companion"
+description = "Bridge ComfyUI with the ComfyPeeper Discord plugin: load workflows into the open tab, and send output images (with embedded workflow) to a Discord webhook."
+version = "1.0.0"
+license = { text = "GPL-3.0-or-later" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Ethanfel/ComfyUI-ComfyPeeper-compagnon"
+
+[tool.comfy]
+PublisherId = "ethanfel"
+DisplayName = "ComfyPeeper Companion"
+Icon = ""

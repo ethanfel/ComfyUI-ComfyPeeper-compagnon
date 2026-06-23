@@ -1,0 +1,11 @@
+# local config (holds the Discord webhook secret)
+config.json
+
+# python bytecode
+__pycache__/
+*.pyc
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
